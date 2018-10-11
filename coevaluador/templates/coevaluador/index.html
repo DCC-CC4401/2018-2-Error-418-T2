@@ -1,0 +1,14 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'coevaluador/style.css' %}">
+
+<title>CoevaluacionesError418</title>
+<div class="header">
+    <h1>Hola Mundo!!</h1>
+</div>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<div class="body-content">
+    Vamos a coevaluarnos!!!
+</div>
