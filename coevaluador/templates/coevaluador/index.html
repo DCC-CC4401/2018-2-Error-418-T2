@@ -3,15 +3,55 @@
 {% load static %}
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<link rel="stylesheet" type="text/css" href="{% static 'coevaluador/style.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'coevaluador/index.css' %}">
 
-<title>CoevaluacionesError418</title>
-<div class="header">
-    <h1>Hola Mundo!!</h1>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<html>
+  <head>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+  </head>
+<body id="LoginForm">
+<div class="container">
+    <h3 class="form-heading"><big><big>Coevaluador</big></big></h3>
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+   <h3>Persona Natural</h3>
+   <p>Por favor, ingrese con su cuenta de U-Pasaporte</p>
+   </div>
+    <form id="Login">
+
+        <div class="form-group">
+
+
+            <input type="email" class="form-control" id="inputEmail" placeholder="Usuario">
+
+        </div>
+
+        <div class="form-group">
+
+            <input type="password" class="form-control" id="inputPassword" placeholder="Clave">
+
+        </div>
+        <div class="forgot">
+        <a href="reset.html">Ayuda con la Clave</a>
 </div>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
 
-{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+    </form>
+    </div>
 
-<div class="body-content">
-    Vamos a coevaluarnos!!!
-</div>
+</div></div></div>
+
+
+</body>
+</html>
