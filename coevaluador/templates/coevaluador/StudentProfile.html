@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="{% static 'coevaluador/style.css' %}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>Coevaluaciones Recientes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="
+    {% static 'coevaluador/assets/css/custom.css' %}">
+    <link rel="stylesheet" href="
+    {% static 'coevaluador/assets/css/custom-themes.css' %}">
+    <link rel="shortcut icon" type="image/png" href="
+    {% static 'coevaluador/assets/img/favicon.png' %}"/>
+    <link rel="stylesheet" href="
+    {% static 'coevaluador/assets/css/profile.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="page-wrapper chiller-theme sidebar-bg bg1 toggled">
+    <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar" class="sidebar-wrapper">
+        <div class="sidebar-content">
+            <div class="sidebar-brand">
+                <a href="#">Coevaluador</a>
+                <div id="close-sidebar">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="sidebar-header">
+                <div class="user-pic">
+                    <img class="img-responsive img-rounded" src="{% static 'coevaluador/assets/img/user.jpg' %}" alt="User picture">
+                </div>
+                <div class="user-info">
+                    <span class="user-name">(Not)</br> Checho
+                            <strong>Leiva</strong>
+                        </span>
+
+
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar-menu">
+                <ul>
+                    <li class="header-menu">
+                        <span>Cursos</span>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user"></i>
+                            <span><small><i>CC-xxxx</i> Ramo random 1</small></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user"></i>
+                            <span><small><i>CC-4401</i> Ingeniería de Software</small></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user"></i>
+                            <span><small><i>CC-xx</i> Ramo random 2</small></span><br>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- sidebar-menu  -->
+        </div>
+        <!-- sidebar-content  -->
+        <div class="sidebar-footer">
+
+
+        </div>
+    </nav>
+    <!-- sidebar-wrapper  -->
+    <div class="container emp-profile">
+            <form method="post">
+                <div class="row-md-4">
+                    <div class="col-md-4">
+                        <div class="profile-img">
+                            <img src="https://static.u-cursos.cl/r/usuario/0e/0e44cfb64372e73619f4766626bb3f2f/datos_usuario/av_598bbf65ac56b.jpg" alt=""/>
+                            <div class="file btn btn-lg btn-primary">
+                                Change Photo
+                                <input type="file" name="file"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="profile-head">
+                                    <h5>
+                                        Checho Leiva
+                                    </h5>
+                                    <h6>
+                                        Estudiante de Ingeniería Civil en Computación
+                                    </h6>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Coevaluaciones</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                    </div>
+                </div>
+                <div class="row-md-12">
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row-md-8">
+                                            <div class="col-md-6">
+                                                <label>Nombre</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Sergio Leiva</p>
+                                            </div>
+                                        </div>
+                                        <div class="row-md-8">
+                                            <div class="col-md-6">
+                                                <label>RUT</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>12345678-9</p>
+                                            </div>
+                                        </div>
+                                        <div class="row-md-8">
+                                            <div class="col-md-6">
+                                                <label>Email</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>sergio.leiva@dcc.uchile.cl</p>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    <!-- page-content" -->
+</div>
+</body>
+</html>

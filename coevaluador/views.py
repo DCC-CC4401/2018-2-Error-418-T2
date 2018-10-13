@@ -11,3 +11,6 @@ def LandingPagePersonaNat(request):
 
 def LandingPageEqD(request):
     return render(request, 'coevaluador/LandingPageEqD.html')
+
+def StudentProfile(request):
+    return render(request, 'coevaluador/StudentProfile.html')
