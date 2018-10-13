@@ -6,4 +6,5 @@ app_name = 'coevaluador'
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('lpnp/', views.lpnp, name='lpnp'),
 ]
