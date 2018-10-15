@@ -1,94 +1,53 @@
-body#LoginForm {
-    background-image: url("https://www.ngenespanol.com/wp-content/uploads/2018/08/En-China-se-vieron-tres-soles-en-el-cielo-770x413.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #11171c;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #e2e2e2;
+}
+div {
     padding: 10px;
 }
 
-.form-heading {
-    color: #fff;
-    font-size: 23px;
+
+h1 {
+    margin: inherit;
 }
 
-.panel h2 {
-    color: #444444;
-    font-size: 18px;
-    margin: 0 0 8px 0;
+.header {
+    background-color: #640c19;
 }
-
-.panel p {
-    color: #777777;
-    font-size: 14px;
-    margin-bottom: 30px;
-    line-height: 24px;
-}
-
-.login-form .form-control {
-    background: #f7f7f7 none repeat scroll 0 0;
-    border: 1px solid #d4d4d4;
-    border-radius: 4px;
-    font-size: 14px;
+.task-item {
     height: 50px;
-    line-height: 50px;
-}
-
-.main-div {
-    background: #ffffff none repeat scroll 0 0;
-    border-radius: 2px;
-    margin: 10px auto 30px;
-    max-width: 38%;
-    opacity: 0.8;
-    padding: 50px 70px 70px 71px;
-}
-
-.login-form .form-group {
-    margin-bottom: 10px;
-}
-
-.login-form {
-    text-align: center;
-}
-
-.forgot a {
-    color: #777777;
-    font-size: 14px;
-    text-decoration: underline;
-}
-
-.login-form .btn.btn-primary {
-    background: #5654f0 none repeat scroll 0 0;
-    border-color: #7674f0;
-    color: #ffffff;
-    font-size: 14px;
     width: 100%;
-    height: 50px;
-    line-height: 50px;
-    padding: 0;
+    display: flex;
 }
 
-.forgot {
-    text-align: left;
-    margin-bottom: 30px;
+.button {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
 }
 
-.botto-text {
-    color: #ffffff;
-    font-size: 14px;
-    margin: auto;
+.text-input-button {
+    background-color: #1e81cf;
 }
 
-.login-form .btn.btn-primary.reset {
-    background: #5654f0 none repeat scroll 0 0;
+.up-button {
+    background-color: #a4fc34;
 }
 
-.back {
-    text-align: left;
-    margin-top: 10px;
+.down-button {
+    background-color: #48fc34;
 }
 
-.back a {
-    color: #444444;
-    font-size: 13px;
-    text-decoration: none;
+.delete-button {
+    background-color: #fc1c21;
 }
