@@ -5,8 +5,8 @@ def index(request):
     return render(request, 'coevaluador/index.html')
 
 
-def indexadmi(request):
-    return render(request, 'coevaluador/indexadmi.html')
+def admi(request):
+    return render(request, 'coevaluador/admi.html')
 
 
 def LandingPagePersonaNat(request):
@@ -17,5 +17,5 @@ def LandingPageEqD(request):
     return render(request, 'coevaluador/LandingPageEqD.html')
 
 
-def admi(request):
-    return render(request, 'coevaluador/admi.html')
+def course(request):
+    return render(request, 'coevaluador/course.html')
