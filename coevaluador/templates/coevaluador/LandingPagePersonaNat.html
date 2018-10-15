@@ -40,6 +40,9 @@
     <nav id="sidebar" class="sidebar-wrapper">
         <div class="sidebar-content">
             <div class="sidebar-brand">
+                <img src="{% static 'coevaluador/images/logo2.png' %}">
+            </div>
+            <div class="sidebar-brand">
                 <a href="#">Coevaluador</a>
                 <div id="close-sidebar">
                     <i class="fas fa-times"></i>
@@ -52,10 +55,8 @@
                 </div>
                 <div class="user-info">
                     <span class="user-name">(Not)</br> Checho
-                            <strong>Leiva</strong>
-                        </span>
-
-
+                        <strong>Leiva</strong>
+                    </span>
                     </span>
                 </div>
             </div>
@@ -65,24 +66,22 @@
                     <li class="header-menu">
                         <span>Cursos</span>
                     </li>
-
-
                     <li>
                         <a href="#">
                             <i class="fa fa-user"></i>
-                            <span><small><i>CC-xxxx</i> Ramo random 1</small></span>
+                            <span><small><i>CC-xxxx</i><br>Ramo random 1</small></span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="fa fa-user"></i>
-                            <span><small><i>CC-4401</i> Ingeniería de Software</small></span>
+                            <span><small><i>CC-4401</i><br>Ingeniería de Software</small></span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="fa fa-user"></i>
-                            <span><small><i>CC-xx</i> Ramo random 2</small></span><br>
+                            <span><small><i>CC-xx</i><br>Ramo random 2</small></span><br>
 
                         </a>
                     </li>
@@ -97,17 +96,14 @@
         </div>
     </nav>
     <!-- sidebar-wrapper  -->
-    <main class="page-content">
+    <div class="page-content">
         <div class="container-fluid">
             <div class="row">
                 <div class="form-group col-md-12">
                     <h2>Coevaluaciones Recientes</h2>
-
-
                 </div>
             </div>
             <hr>
-
             <table style="width:60%">
                 <tr>
                     <th>Fecha</th>
@@ -134,14 +130,9 @@
                     <td>Hasta 25/08/2018</td>
                     <td><u><a href="url">Publicada</a></u></td>
                 </tr>
-
             </table>
-
-
         </div>
-
-
-    </main>
+    </div>
     <!-- page-content" -->
 </div>
 <!-- page-wrapper -->
