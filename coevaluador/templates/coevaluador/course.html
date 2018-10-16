@@ -94,19 +94,45 @@
 
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-data" role="tab"
+                    <a class="nav-item nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-coev" role="tab"
+                       aria-controls="nav-contact" aria-selected="false">Coevaluaciones</a>
+                    <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-data" role="tab"
                        aria-controls="nav-home" aria-selected="true">Datos</a>
                     <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-members" role="tab"
                        aria-controls="nav-profile" aria-selected="false">Integrantes</a>
                     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-groups" role="tab"
                        aria-controls="nav-contact" aria-selected="false">Equipos</a>
-                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-coev" role="tab"
-                       aria-controls="nav-contact" aria-selected="false">Coevaluaciones</a>
                 </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-data" role="tabpanel" aria-labelledby="nav-home-tab">
-
+                <div class="tab-pane fade show active" id="nav-coev" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <table>
+                        <tr>
+                            <th>Fecha de Publicación</th>
+                            <th>Plazo</th>
+                            <th>Estado</th>
+                        </tr>
+                        <tr>
+                            <td>20/11/2018</td>
+                            <td>Hasta 25/11/2018</td>
+                            <td><u><a class="text-danger" href="url">Pendiente</a></u></td>
+                        </tr>
+                        <tr>
+                            <td>20/10/2018</td>
+                            <td>Hasta 25/10/2018</td>
+                            <td>Contestada</td>
+                        </tr>
+                        <tr>
+                            <td>20/08/2018</td>
+                            <td>Hasta 25/08/2018</td>
+                            <td><u><a href="url">Publicada</a></u></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="nav-data" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="body-content">
+                        Curso Random
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="nav-members" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <div class="table-responsive">
@@ -1082,9 +1108,7 @@
                 <div class="tab-pane fade" id="nav-groups" role="tabpanel" aria-labelledby="nav-contact-tab">
 
                 </div>
-                <div class="tab-pane fade" id="nav-coev" role="tabpanel" aria-labelledby="nav-contact-tab">
 
-                </div>
 
             </div>
 
