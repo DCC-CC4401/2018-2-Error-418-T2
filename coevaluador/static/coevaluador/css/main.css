@@ -65,3 +65,11 @@ th, td {
 .delete-button {
     background-color: #fc1c21;
 }
+
+/*-------------------images---------------------------*/
+
+.logo.avatar.chica {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+}
