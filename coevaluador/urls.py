@@ -13,4 +13,5 @@ urlpatterns = [
     path('profile', views.profile, name='profile'),
     path('student', views.StudentProfile, name='StudentProfile'),
     path('adstudent', views.adminStudentProfile, name='adminStudentProfile'),
+    path('coev', views.coevaluation, name='coev'),
 ]
