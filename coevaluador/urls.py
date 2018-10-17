@@ -14,4 +14,5 @@ urlpatterns = [
     path('student', views.StudentProfile, name='StudentProfile'),
     path('adstudent', views.adminStudentProfile, name='adminStudentProfile'),
     path('coev', views.coevaluation, name='coev'),
+    path('courseStudent', views.courseStudent, name='courseStudent'),
 ]
