@@ -19,3 +19,7 @@ def LandingPageEqD(request):
 
 def course(request):
     return render(request, 'coevaluador/course.html')
+
+
+def profile(request):
+    return render(request, 'coevaluador/profile.html')
