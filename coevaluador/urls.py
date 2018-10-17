@@ -11,4 +11,5 @@ urlpatterns = [
     path('LPED', views.LandingPageEqD, name='LandingPageEqD'),
     path('course', views.course, name='course'),
     path('profile', views.profile, name='profile'),
+    path('coev', views.coevaluation, name='coev'),
 ]

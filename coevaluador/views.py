@@ -23,3 +23,7 @@ def course(request):
 
 def profile(request):
     return render(request, 'coevaluador/profile.html')
+
+
+def coevaluation(request):
+    return render(request, 'coevaluador/coev.html')
