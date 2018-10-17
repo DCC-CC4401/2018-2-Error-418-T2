@@ -90,18 +90,21 @@
                     <h2>Coevaluaciones Recientes</h2>
                 </div>
                 <div class="col-md-3">
-                    <button class="button text-input-button">Nueva Coevaluación</button>
+                    <button class="btn button up-button" type="button">Nueva Coevaluación</button>
                 </div>
             </div>
             <hr>
 
-            <table>
+            <table class="table">
+                <thead class="thead-dark">
                 <tr>
-                    <th>Curso</th>
-                    <th>Desde</th>
-                    <th>Hasta</th>
-                    <th>Estado</th>
+                    <th scope="col">Curso</th>
+                    <th scope="col">Desde</th>
+                    <th scope="col">Hasta</th>
+                    <th scope="col">Estado</th>
                 </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>Ingeniería de Software 1</td>
                     <td>20/10/2018</td>
@@ -129,7 +132,7 @@
                     <td><a href="url">Cerrada</a></td>
                     <td><a href="#"><i class="fas fa-edit"></i></a></td>
                 </tr>
-
+                </tbody>
             </table>
         </div>
     </div>
