@@ -29,6 +29,10 @@ h1 {
     display: flex;
 }
 
+.no-padding {
+    padding: 0px;
+}
+
 /*------------------tables--------------------*/
 
 table {
@@ -61,7 +65,7 @@ th, td {
 }
 
 .up-button {
-    background-color: #a4fc34;
+    background-color: #007bff;
 }
 
 .down-button {
