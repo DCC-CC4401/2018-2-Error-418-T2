@@ -84,56 +84,73 @@
 
     <!-- page-content" -->
     <div class="page-content">
+
         <div class="container-fluid">
             <div class="row">
                 <div class="form-group col-md-9">
-                    <h2>Coevaluaciones Recientes</h2>
+                    <h2>Juanito Pérez</h2>
                 </div>
                 <div class="col-md-3">
                     <button class="btn button up-button" type="button">Nueva Coevaluación</button>
                 </div>
             </div>
-            <hr>
 
-            <table class="table">
-                <thead class="thead-dark">
-                <tr>
-                    <th scope="col">Curso</th>
-                    <th scope="col">Desde</th>
-                    <th scope="col">Hasta</th>
-                    <th scope="col">Estado</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Ingeniería de Software 1</td>
-                    <td>20/10/2018</td>
-                    <td>25/10/2018</td>
-                    <td><a href="url">Abierta</a></td>
-                    <td><a href="#"><i class="fas fa-edit"></i></a></td>
-                <tr>
-                    <td>Curso random</td>
-                    <td>25/08/2018</td>
-                    <td>30/08/2018</td>
-                    <td><a href="url">Cerrada</a></td>
-                    <td><a href="#"><i class="fas fa-edit"></i></a></td>
-                </tr>
-                <tr>
-                    <td>Ingeniería de Software 1</td>
-                    <td>20/08/2018</td>
-                    <td>25/08/2018</td>
-                    <td><a href="url">Cerrada</a></td>
-                    <td><a href="#"><i class="fas fa-edit"></i></a></td>
-                </tr>
-                <tr>
-                    <td>Ingeniería de Software 1</td>
-                    <td>20/7/2018</td>
-                    <td>25/07/2018</td>
-                    <td><a href="url">Cerrada</a></td>
-                    <td><a href="#"><i class="fas fa-edit"></i></a></td>
-                </tr>
-                </tbody>
-            </table>
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-coev"
+                       role="tab"
+                       aria-controls="nav-contact" aria-selected="false">Coevaluaciones</a>
+                    <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-data" role="tab"
+                       aria-controls="nav-home" aria-selected="true">Datos</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-coev" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Curso</th>
+                            <th scope="col">Desde</th>
+                            <th scope="col">Hasta</th>
+                            <th scope="col">Estado</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Ingeniería de Software I</td>
+                            <td>17/10/18</td>
+                            <td>22/10/18</td>
+                            <td><u><a class="text-danger" href="url">Pendiente</a></u></td>
+                        </tr>
+                        <tr>
+                            <td>Redes</td>
+                            <td>10/10/18</td>
+                            <td>17/10/18</td>
+                            <td>Contestada</td>
+                        </tr>
+                        <tr>
+                            <td>Sistemas Operativos</td>
+                            <td>06/10/18</td>
+                            <td>13/10/18</td>
+                            <td><u><a href="url">Publicada</a></u></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="nav-data" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-2">Rut:</div>
+                            <div class="col-md-10">19.875.643-1</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">Correo:</div>
+                            <div class="col-md-10">juanito.perez@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 

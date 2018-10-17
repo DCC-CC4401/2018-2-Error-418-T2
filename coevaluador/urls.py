@@ -6,8 +6,10 @@ app_name = 'coevaluador'
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('admi', views.admi, name='admi'),
     path('LPPN', views.LandingPagePersonaNat, name='LandingPagePersonaNat'),
     path('LPED', views.LandingPageEqD, name='LandingPageEqD'),
-    path('AdminLog', views.indexadmi, name='indexadmi'),
+    path('course', views.course, name='course'),
+    path('profile', views.profile, name='profile'),
     path('SP', views.StudentProfile, name='StudentProfile'),
 ]
