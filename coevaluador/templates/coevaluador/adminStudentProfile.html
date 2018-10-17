@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{% static 'coevaluador/css/custom.css' %}">
     <link rel="stylesheet" href="{% static 'coevaluador/css/custom-themes.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'coevaluador/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'coevaluador/css/profile.css' %}">
 
     <link rel="shortcut icon" type="image/png" href="{% static 'coevaluador/images/favicon.ico' %}"/>
 </head>
@@ -105,19 +106,20 @@
                        aria-controls="nav-course" aria-selected="false">Cursos</a>
                 </div>
             </nav>
-            <div class="tab-content" id="nav-tabContent">
+            <div class="tab-content profile-tab" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-data" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-2">Rut:</div>
-                            <div class="col-md-10">19.875.643-1</div>
+                            <div class="col-md-2"><label>Rut:</label></div>
+                            <div class="col-md-10"><label>19.875.643-1</label></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-2">Correo:</div>
-                            <div class="col-md-10">juanito.perez@gmail.com</div>
+                            <div class="col-md-2"><label>Correo:</label></div>
+                            <div class="col-md-10"><label>juanito.perez@gmail.com</label></div>
                         </div>
                     </div>
                 </div>
+
                 <div class="tab-pane fade" id="nav-coev" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <table class="table">
                         <thead class="thead-dark">
@@ -170,25 +172,25 @@
                             <td>1</td>
                             <td><a href="#">Ingeniería de Software I</a></td>
                             <td><select><option value="Alumno">Alumno</option></select></td>
-                            <td><a href="#" class="text-danger">Eliminar</a></td>
+                            <td> <a href="#"><i class="fas fa-trash-alt danger-icon" style="color:red"></i></a></td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td><a href="#">Redes</a></td>
                             <td><select><option value="Alumno">Alumno</option></select></td>
-                            <td><a href="#" class="text-danger">Eliminar</a></td>
+                            <td> <a href="#"><i class="fas fa-trash-alt danger-icon" style="color:red"></i></a></td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td><a href="">Sistemas Operativos</a></td>
                             <td><select><option value="Ayudante">Ayudante</option></select></td>
-                            <td><a href="#" class="text-danger">Eliminar</a></td>
+                            <td> <a href="#"><i class="fas fa-trash-alt danger-icon" style="color:red"></i></a></td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td><a href="">Diseño y Análisis de Algoritmos</a></td>
                             <td><select><option value="Auxiliar">Auxiliar</option></select></td>
-                            <td><a href="#" class="text-danger">Eliminar</a></td>
+                            <td> <a href="#"><i class="fas fa-trash-alt danger-icon" style="color:red"></i></a></td>
                         </tr>
                         </tbody>
                     </table>
