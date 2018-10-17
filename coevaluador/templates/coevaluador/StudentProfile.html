@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{% static 'coevaluador/css/custom.css' %}">
     <link rel="stylesheet" href="{% static 'coevaluador/css/custom-themes.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'coevaluador/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'coevaluador/css/profile.css' %}">
 
     <link rel="shortcut icon" type="image/png" href="{% static 'coevaluador/images/favicon.ico' %}"/>
 </head>
@@ -98,23 +99,23 @@
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                     <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-data" role="tab"
-                       aria-controls="nav-home" aria-selected="true">Información</a>
+                       aria-controls="nav-home" aria-selected="true">Datos</a>
                     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-coev" role="tab"
                        aria-controls="nav-contact" aria-selected="false">Coevaluaciones</a>
                     <a class="nav-item nav-link" id="nav-course-tab" data-toggle="tab" href="#nav-course" role="tab"
                        aria-controls="nav-course" aria-selected="false">Cursos</a>
                 </div>
             </nav>
-            <div class="tab-content" id="nav-tabContent">
+            <div class="tab-content profile-tab" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-data" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-2">Rut:</div>
-                            <div class="col-md-10">19.875.643-1</div>
+                            <div class="col-md-2"><label>Rut:</label></div>
+                            <div class="col-md-10"><label>19.875.643-1</label></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-2">Correo:</div>
-                            <div class="col-md-10">juanito.perez@gmail.com</div>
+                            <div class="col-md-2"><label>Correo:</label></div>
+                            <div class="col-md-10"><label>juanito.perez@gmail.com</label></div>
                         </div>
                     </div>
                 </div>
