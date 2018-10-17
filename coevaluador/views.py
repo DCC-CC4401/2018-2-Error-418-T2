@@ -25,5 +25,9 @@ def profile(request):
     return render(request, 'coevaluador/profile.html')
 
 
+def StudentProfile(request):
+    return render(request, 'coevaluador/StudentProfile.html')
+
+
 def coevaluation(request):
     return render(request, 'coevaluador/coev.html')
